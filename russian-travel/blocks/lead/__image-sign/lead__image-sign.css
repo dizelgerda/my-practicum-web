@@ -1,0 +1,18 @@
+.lead__image-sign {
+    align-self: flex-start;
+
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin: 8px 0 0;
+}
+
+@media (max-width: 768px) { 
+    .lead__image-sign {
+        margin-left: 16px;
+    }
+}

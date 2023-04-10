@@ -1,0 +1,16 @@
+.popular__title {
+    position: relative;
+    z-index: 1;
+    max-width: 265px;
+
+    margin: 0;
+    margin-left: 20px;
+    margin-bottom: 30px;
+
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #FFFFFF;
+}

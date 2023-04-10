@@ -1,0 +1,16 @@
+.profile__input {
+  width: 60%;
+
+  margin: 0;
+  padding: 0;
+
+  background: none;
+  border: none;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: right;
+  color: #ffffff;
+}

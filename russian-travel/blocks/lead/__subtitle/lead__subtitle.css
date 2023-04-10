@@ -1,0 +1,26 @@
+.lead__subtitle {
+    margin: 0;
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    width: 640px;
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 64px;
+}
+
+@media (max-width: 1024px) { 
+    .lead__subtitle  {
+        margin-bottom: 56px;
+    }
+}
+
+@media (max-width: 750px) { 
+    .lead__subtitle {
+        width: 288px;
+        font-size: 16px;
+        line-height: 1.25;
+        margin-bottom: 40px;
+    }
+}

@@ -1,0 +1,7 @@
+.trend__card {
+    margin-bottom: 39px;
+}
+
+.trend__card:last-child {
+    margin-bottom: 0;
+}

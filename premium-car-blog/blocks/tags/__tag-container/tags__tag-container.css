@@ -1,0 +1,13 @@
+.tags__tag-container {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 0 16px;
+
+    background: #EBEBEB;
+    border-radius: 3px;
+
+    text-decoration: none;
+}

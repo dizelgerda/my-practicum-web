@@ -1,0 +1,10 @@
+.tags__tag-text {
+    margin: 0;
+
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #171717;
+}

@@ -1,0 +1,16 @@
+.search-form__label {
+  margin: 0;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 400px) {
+  .search-form__label {
+    font-size: 11px;
+    line-height: 18px;
+  }
+}

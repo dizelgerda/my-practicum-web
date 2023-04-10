@@ -1,0 +1,38 @@
+.heder__button {
+  min-width: 76px;
+  min-height: 32px;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration: none;
+
+  color: #000000;
+
+  transition: opacity 0.5s ease;
+
+  background: #3DDC84;
+  border-radius: 3px;
+}
+
+.heder__button:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 500px) {
+  .heder__button {
+    min-width: 54px;
+    min-height: 26px;
+
+    font-size: 10px;
+  }
+}

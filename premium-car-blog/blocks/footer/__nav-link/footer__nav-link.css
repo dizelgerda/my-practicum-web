@@ -1,0 +1,16 @@
+.footer__nav-link {
+    margin: 0;
+    margin-right: 40px;
+
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer__nav-link:last-child {
+    margin-right: 0;
+}

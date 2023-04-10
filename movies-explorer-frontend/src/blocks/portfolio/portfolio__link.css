@@ -1,0 +1,57 @@
+.portfolio__link {
+  width: 100%;
+  min-height: 91px;
+
+  margin: 0;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 50px;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+  text-decoration: none;
+
+  border-bottom: 1px solid #424242;
+
+  background-image: url(../../images/strelka.svg);
+  background-repeat: no-repeat;
+  background-size: 29px 60px;
+  background-position: 100% center;
+
+  transition: opacity 0.5s ease;
+}
+
+.portfolio__link:hover {
+  opacity: 0.7;
+}
+
+.portfolio__link:last-child {
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .portfolio__link {
+    min-height: 89px;
+
+    font-size: 28px;
+    line-height: 50px;
+
+    background-size: 27px 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .portfolio__link {
+    min-height: 67px;
+
+    font-size: 18px;
+    line-height: 28px;
+
+    background-size: 18px 28px;
+  }
+}

@@ -1,0 +1,14 @@
+.profile__item {
+  padding: 16px 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 1px solid #424242;
+
+}
+
+.profile__item:last-child {
+  border: none;
+}

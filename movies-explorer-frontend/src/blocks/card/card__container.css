@@ -1,0 +1,14 @@
+.card__container {
+  padding: 16px 0 16px 16px;
+}
+
+@media (max-width: 400px) {
+  .card__container {
+    padding: 14px 12px 14px;
+    padding-right: 16px;
+
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    grid-template-rows: repeat(2, auto);
+  }
+}

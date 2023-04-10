@@ -1,0 +1,11 @@
+.blog {
+    max-width: 1170px;
+
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 770px 270px;
+    grid-template-rows: repeat(6, min-content);
+    column-gap: 130px;
+    row-gap: 60px;
+}

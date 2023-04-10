@@ -1,0 +1,31 @@
+.about-project__container {
+  padding-top: 70px;
+  padding-bottom: 110px;
+  box-sizing: border-box;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  row-gap: 110px;
+  column-gap: 40px;
+}
+
+@media (max-width: 768px) {
+  .about-project__container {
+    padding-bottom: 90px;
+
+    row-gap: 93px;
+    column-gap: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-project__container {
+    padding-bottom: 70px;
+    padding-top: 60px;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, max-content);
+    row-gap: 58px;
+  }
+}

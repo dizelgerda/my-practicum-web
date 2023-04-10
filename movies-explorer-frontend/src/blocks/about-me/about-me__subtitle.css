@@ -1,0 +1,30 @@
+.about-me__subtitle {
+  max-width: 600px;
+
+  margin: 0;
+  margin-bottom: 26px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: #FFFFFF;
+
+  mix-blend-mode: normal;
+}
+
+@media (max-width: 768px) {
+  .about-me__subtitle {
+    margin-bottom: 20px;
+
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 500px) {
+  .about-me__subtitle {
+    font-size: 11px;
+    line-height: 16px;
+  }
+}

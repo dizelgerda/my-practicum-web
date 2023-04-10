@@ -1,0 +1,6 @@
+.popular__title_main {
+    max-width: calc(100% - 20px * 2);
+
+    font-size: 26px;
+    line-height: 36px;
+}

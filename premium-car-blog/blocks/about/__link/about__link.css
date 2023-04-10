@@ -1,0 +1,20 @@
+.about__link {
+    width: 34px;
+    height: 34px;
+
+    margin: 0;
+    margin-right: 15px;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    list-style: none;
+    background: #373737;
+    border-radius: 3px;
+}
+
+.about__link:last-child {
+    margin-right: 0;
+}

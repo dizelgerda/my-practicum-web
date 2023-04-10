@@ -1,0 +1,27 @@
+.about-me__about {
+  max-width: 600px;
+
+  margin: 0;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #FFFFFF;
+
+  mix-blend-mode: normal;
+}
+
+@media (max-width: 768px) {
+  .about-me__about {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 500px) {
+  .about-me__about {
+    font-size: 11px;
+    line-height: 16px;
+  }
+}

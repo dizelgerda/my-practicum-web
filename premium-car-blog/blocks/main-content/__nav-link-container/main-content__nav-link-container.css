@@ -1,0 +1,14 @@
+.main-content__nav-link-container {
+    width: 40px;
+    height: 40px;
+
+    margin-right: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3px;
+}

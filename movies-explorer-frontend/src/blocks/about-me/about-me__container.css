@@ -1,0 +1,33 @@
+.about-me__container {
+  max-width: 1140px;
+
+  margin: auto;
+  padding-top: 66px;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  justify-content: space-between;
+  column-gap: 50px;
+  row-gap: 99px;
+}
+
+@media (max-width: 768px) {
+  .about-me__container {
+    padding-bottom: 45px;
+    row-gap: 87px;
+  }
+}
+
+@media (max-width: 500px) {
+  .about-me__container {
+    padding-top: 60px;
+    padding-bottom: 35px;
+
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, auto);
+    row-gap: 40px;
+  }
+}

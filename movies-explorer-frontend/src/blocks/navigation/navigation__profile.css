@@ -1,0 +1,17 @@
+.navigation__profile {
+  grid-column: -2/-1;
+
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  justify-content: end;
+
+  text-decoration: none;
+  cursor: pointer;
+
+  transition: opacity 0.5s ease;
+}
+
+.navigation__profile:hover {
+  opacity: 0.7;
+}

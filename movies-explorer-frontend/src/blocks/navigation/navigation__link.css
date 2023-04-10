@@ -1,0 +1,24 @@
+.navigation__link {
+  margin: 0;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+@media (max-width: 500px) {
+  .navigation__link {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .navigation__link {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

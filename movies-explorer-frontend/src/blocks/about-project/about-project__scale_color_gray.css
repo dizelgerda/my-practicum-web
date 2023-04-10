@@ -1,0 +1,12 @@
+.about-project__scale_color_gray {
+  width: 80%;
+
+  background: #303030;
+  color: #FFFFFF;
+}
+
+@media (max-width: 537px) {
+  .about-project__scale_color_gray {
+    width: calc(100% - 100px);
+  }
+}

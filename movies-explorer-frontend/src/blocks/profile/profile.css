@@ -1,0 +1,9 @@
+.profile {
+  background: #202020;
+  min-height: calc(100vh - 74px);
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: max-content 1fr;
+  align-items: flex-end;
+}

@@ -1,0 +1,15 @@
+.search-form__switch {
+  width: 36px;
+  height: 26px;
+
+  margin: 0;
+  padding: 0;
+
+  background: none;
+  background-image: url(../../images/of.svg);
+  background-repeat: no-repeat;
+}
+
+.search-form__switch:checked {
+  background-image: url(../../images/on.svg);
+}

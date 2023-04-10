@@ -1,0 +1,19 @@
+.search-form__switch-container {
+  grid-column: 1/-1;
+
+  width: 100%;
+  padding-top: 30px;
+
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+
+  border-top: 1px solid #424242;
+}
+
+@media (max-width: 400px) {
+  .search-form__switch-container {
+    padding-top: 43px;
+  }
+}

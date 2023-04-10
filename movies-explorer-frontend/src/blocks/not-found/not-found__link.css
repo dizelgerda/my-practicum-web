@@ -1,0 +1,36 @@
+.not-found__link {
+  grid-row: -2/-1;
+  align-self: end;
+
+  margin: 0;
+  padding: 0;
+  margin-bottom: 60px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  text-align: center;
+  color: #4285F4;
+
+  background: none;
+  border: none;
+
+  cursor: pointer;
+
+  transition: opacity 0.5s ease;
+}
+
+.not-found__link:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 400px) {
+  .not-found__link {
+    padding-bottom: 30px;
+
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

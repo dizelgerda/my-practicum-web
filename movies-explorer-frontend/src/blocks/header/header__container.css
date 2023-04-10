@@ -1,0 +1,23 @@
+.header__container {
+  width: 100%;
+  max-width: 1140px;
+
+  box-sizing: border-box;
+
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+  .header__container {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header__container {
+    padding: 0 14px;
+  }
+}

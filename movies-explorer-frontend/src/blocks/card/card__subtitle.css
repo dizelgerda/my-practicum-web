@@ -1,0 +1,22 @@
+.card__subtitle {
+  margin: 0;
+  margin-bottom: 30px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+  color: #8B8B8B;
+}
+
+@media (max-width: 400px) {
+  .card__subtitle {
+    margin-bottom: 0;
+
+
+    font-size: 11px;
+    line-height: 13px;
+  }
+}

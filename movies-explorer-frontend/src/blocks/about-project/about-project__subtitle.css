@@ -1,0 +1,23 @@
+.about-project__subtitle {
+  margin: 0;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+  .about-project__subtitle {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-project__subtitle {
+    font-size: 11px;
+    line-height: 16px;
+  }
+}

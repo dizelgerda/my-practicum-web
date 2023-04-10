@@ -1,0 +1,12 @@
+.header__container {
+    max-width: 1170px;
+    
+    margin: auto;
+    padding: 33px 0;
+
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

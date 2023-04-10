@@ -1,0 +1,9 @@
+.card__link-container {
+    align-self: end;
+}
+
+@media (max-width: 720px) { 
+    .card__link-container {
+        margin-left: 16px;
+    }
+}

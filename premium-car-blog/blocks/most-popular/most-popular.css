@@ -1,0 +1,11 @@
+.most-popular {
+    width: 100%;
+    max-width: 1170px;
+
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    display: flex;
+    flex-wrap: wrap;
+}

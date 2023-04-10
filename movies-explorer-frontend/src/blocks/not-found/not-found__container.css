@@ -1,0 +1,7 @@
+.not-found__container {
+  grid-row: 2/3;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px
+}

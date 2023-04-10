@@ -1,0 +1,32 @@
+.movies-list__button {
+  width: 100%;
+  min-height: 36px;
+
+  margin: 0;
+  margin-top: 50px;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+
+  background: #2F2F2F;
+  border: none;
+  border-radius: 6px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+
+  transition: opacity 0.5s ease;
+
+  cursor: pointer;
+}
+
+.movies-list__button:hover {
+  opacity: 0.7;
+}

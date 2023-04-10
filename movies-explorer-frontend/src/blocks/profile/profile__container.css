@@ -1,0 +1,16 @@
+.profile__container {
+  width: 100%;
+  max-width: 410px;
+
+  box-sizing: border-box;
+
+  margin: auto;
+  padding-top: 74px;
+}
+
+@media (max-width: 400px) {
+  .profile__container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}

@@ -1,0 +1,14 @@
+.heder__login-container {
+  justify-self: end;
+
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  column-gap: 30px;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .heder__login-container {
+    column-gap: 14px;
+  }
+}

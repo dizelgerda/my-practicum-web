@@ -1,0 +1,11 @@
+.card__title {
+    margin: 0;
+    margin-bottom: 10px;
+
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #171717;
+}

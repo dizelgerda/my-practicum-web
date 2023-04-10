@@ -1,0 +1,12 @@
+.navigation__profile-icon {
+  width: 30px;
+  height: 30px;
+
+  background-color: #313131;
+  background-image: url(../../images/profile.svg);
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+  background-position: center;
+
+  border-radius: 6px;
+}

@@ -1,0 +1,8 @@
+.label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #4A90E2;
+    border-radius: 3px;
+}

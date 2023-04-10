@@ -1,0 +1,30 @@
+.footer__about {
+  grid-column: 1 / -1;
+
+  width: 100%;
+
+  margin: 0;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: #8B8B8B;
+}
+
+.footer__about::after {
+  content: '';
+
+  display: block;
+
+  padding-top: 20px;
+
+  border-bottom: 1px solid #424242;
+}
+
+@media (max-width: 500px) {
+  .footer__about {
+    font-size: 12px;
+  }
+}

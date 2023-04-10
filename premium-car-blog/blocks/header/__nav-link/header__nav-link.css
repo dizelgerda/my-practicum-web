@@ -1,0 +1,14 @@
+.header__nav-link {
+    margin-right: 40px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header__nav-link:last-child {
+    margin-right: 0;
+}

@@ -1,0 +1,13 @@
+.insta-grid__link {
+    grid-column: 1 / -1;
+    min-height: 50px;
+
+    display: grid;
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+    background: #232323;
+    border-radius: 3px;
+}

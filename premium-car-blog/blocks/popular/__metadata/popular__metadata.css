@@ -1,0 +1,14 @@
+.popular__metadata {
+    position: relative;
+    z-index: 1;
+
+    margin: 0;
+    margin-left: 20px;
+
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}

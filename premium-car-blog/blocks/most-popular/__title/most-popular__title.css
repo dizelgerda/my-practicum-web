@@ -1,0 +1,10 @@
+.most-popular__title {
+    width: 100%;
+
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+    color: #171717;
+}

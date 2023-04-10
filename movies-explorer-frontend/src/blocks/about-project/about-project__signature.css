@@ -1,0 +1,19 @@
+.about-project__signature {
+  display: inline-block;
+
+  margin: 0;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #8B8B8B;
+}
+
+@media (max-width: 500px) {
+  .about-project__signature {
+    font-size: 11px;
+    line-height: 13px;
+  }
+}

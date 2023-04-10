@@ -1,0 +1,15 @@
+.recent__card {
+    max-width: 293px;
+
+    margin-bottom: 25px;
+
+    display: grid;
+    grid-template-columns: 95px 1fr;
+    grid-template-rows: repeat(2, min-content);
+    column-gap: 20px;
+    row-gap: 13px;
+}
+
+.recent__card:last-child {
+    margin-bottom: 0;
+}

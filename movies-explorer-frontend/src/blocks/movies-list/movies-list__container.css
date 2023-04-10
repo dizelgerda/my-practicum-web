@@ -1,0 +1,31 @@
+.movies-list__container {
+  max-width: 1140px;
+
+  margin: 0;
+  margin: auto;
+  padding: 70px 0 80px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  list-style: none;
+}
+
+@media (max-width: 800px) {
+  .movies-list__container {
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .movies-list__container {
+    gap: 20px;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

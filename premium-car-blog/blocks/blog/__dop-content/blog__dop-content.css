@@ -1,0 +1,8 @@
+.blog__dop-content {
+    grid-column: 2 / 3;
+    grid-row: 1 / -1;
+
+    display: grid;
+    grid-template-rows: repeat(5, min-content);
+    gap: 60px;
+}

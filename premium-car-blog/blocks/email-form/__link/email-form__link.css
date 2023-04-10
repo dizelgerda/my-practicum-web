@@ -1,0 +1,13 @@
+.email-form__link {
+    width: 100%;
+    min-height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #232323;
+    border-radius: 3px;
+
+    text-decoration: none;
+}

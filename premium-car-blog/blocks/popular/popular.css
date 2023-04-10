@@ -1,0 +1,12 @@
+.popular {
+    max-width: 1170px;
+
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 75px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    grid-template-rows: repeat(2, 265px);
+    gap: 28px
+}

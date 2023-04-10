@@ -1,0 +1,13 @@
+.email-form__subtitle {
+    max-width: 252px;
+
+    margin: 0;
+    margin-bottom: 27px;
+
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+}

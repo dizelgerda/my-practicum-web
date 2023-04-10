@@ -1,0 +1,43 @@
+.switch {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 36px;
+  height: 20px;
+}
+
+
+.switch__input::before {
+  content: '';
+  width: 36px;
+  height: 20px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background-image: url(../../images/of.svg);
+  background-size: 36px 20px;
+  background-repeat: no-repeat;
+
+  cursor: pointer;
+}
+
+.switch__input:checked::before {
+  background-image: url(../../images/on.svg);
+  background-size: 36px 20px;
+}
+
+/* .switch__button {
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  width: 36px;
+  height: 20px;
+  background-image: url(../../images/of.svg);
+  background-repeat: no-repeat;
+} */
